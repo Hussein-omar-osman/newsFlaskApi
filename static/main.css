@@ -4,12 +4,64 @@ body {
 
 .allCards {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   margin: 40px 30px;
 }
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.headlineCards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.card .height {
+  margin: 20px 30px;
+}
+.form {
+  max-width: 400px;
+  margin: 10px auto;
+}
+input {
+  background-color: #4c2885;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  width: 280px;
+}
 
+input::placeholder {
+  color: #bbb;
+}
+
+input:focus {
+  outline: none;
+}
+.info {
+  margin-top: 10px;
+}
+
+.repoH2 {
+  max-width: 300px;
+  margin: 50px auto;
+  text-align: center;
+  color: white;
+}
 /* .card {
   max-height: 500px;
 } */
