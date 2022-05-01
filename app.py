@@ -2,7 +2,7 @@ from flask import Flask, render_template, url_for, request, redirect
 
 app = Flask(__name__)
 
-data = [
+posts = [
         {
             "source": {
                 "id": "cnn",
@@ -176,7 +176,7 @@ data = [
 
 @app.route("/")
 def index():
- return render_template('index.html', datas=data)
+ return render_template('index.html', datas=posts)
 
 
 if __name__ == "__main__":
