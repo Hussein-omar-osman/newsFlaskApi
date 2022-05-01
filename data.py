@@ -161,3 +161,58 @@ crypto = [
             "content": "On the dark web, the takedown of yet another cryptocurrency-based black market for drugs has become almost a semiannual routine, with plenty of competitors ready to fill the shoes of any market that … [+3524 chars]"
         }
 ]
+
+covid = [
+{
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Khari Johnson",
+            "title": "Hospital Robots Are Helping Combat a Wave of Nurse Burnout",
+            "description": "Moxi and other delivery-focused assistants have become even more critical as the Covid-19 pandemic has pushed health care workers to their limits.",
+            "url": "https://www.wired.com/story/moxi-hospital-robot-nurse-burnout-health-care/",
+            "urlToImage": "https://media.wired.com/photos/6259fcdbe445956782d8b731/191:100/w_1280,c_limit/Diligent-Moxi-Robot-Nurse-Burnout-Business.jpg",
+            "publishedAt": "2022-04-19T11:00:00Z",
+            "content": "Since February, the nurses at Mary Washington Hospital in Fredericksburg, Virginia have had an extra assistant on their shifts: Moxi, a nearly six-foot tall robot that ferries medication, supplies, l… [+3050 chars]"
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Amit Katwala",
+            "title": "For mRNA, Covid Vaccines Are Just the Beginning",
+            "description": "With clinical vaccine trials for everything from HIV to Zika, messenger RNA could transform medicine—or widen health care inequalities.",
+            "url": "https://www.wired.com/story/for-mrna-vaccines-covid-was-just-the-beginning/",
+            "urlToImage": "https://media.wired.com/photos/625a1c9b59f96ede09b15dda/191:100/w_1280,c_limit/MRNA_science_GettyImages-1237786053.jpg",
+            "publishedAt": "2022-04-18T11:00:00Z",
+            "content": "One of mRNAs strengths is its remarkable agility, as Hatchett puts it. Its only raw ingredients are the four amino acid bases that form the letters of the RNA sequence, so it can be designed and made… [+3411 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Kris Holt",
+            "title": "Airbnb will stop offering refunds when a host or guest contracts COVID-19",
+            "description": "Airbnb\r\n bookings made on or after May 31st will no longer be eligible for refunds for COVID-19-related issues\r\n. The upcoming change to the extenuating circumstances policy will apply to cases where a host or guest contracts COVID-19\r\n.The company says the h…",
+            "url": "https://www.engadget.com/airbnb-covid-19-refund-policy-update-201500728.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-08/92d01ba0-04d5-11ec-9e6e-0b497e094437",
+            "publishedAt": "2022-04-29T20:15:00Z",
+            "content": "Airbnb\r\n bookings made on or after May 31st will no longer be eligible for refunds for COVID-19-related issues\r\n. The upcoming change to the extenuating circumstances policy will apply to cases where… [+1712 chars]"
+        },
+        {
+            "source": {
+                "id": None,
+                "name": "New York Times"
+            },
+            "author": "Sabrina Tavernise, Rachelle Bonja, Rikki Novetsky, Rob Szypko, Michael Simon Johnson, Anita Badejo and Chris Wood",
+            "title": "A Covid Mystery in Africa",
+            "description": "Why coronavirus case and death rates have been so low in much of sub-Saharan Africa compared with the rest of the world.",
+            "url": "https://www.nytimes.com/2022/04/07/podcasts/the-daily/covid-cases-africa.html",
+            "urlToImage": "https://static01.nyt.com/images/2022/04/07/podcasts/07daily-2/merlin_203167824_3d25f006-c60c-41be-845e-e7c6acbd08d8-facebookJumbo.jpg",
+            "publishedAt": "2022-04-07T10:11:02Z",
+            "content": "Stephanie Nolen contributed reporting.\r\nThe Daily is made by Lisa Tobin, Rachel Quester, Lynsea Garrison, Clare Toeniskoetter, Paige Cowett, Michael Simon Johnson, Brad Fisher, Larissa Anderson, Chri… [+750 chars]"
+        }
+]

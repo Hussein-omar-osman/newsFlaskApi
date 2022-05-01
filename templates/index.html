@@ -64,6 +64,28 @@
       {% endfor %}
     </div>
 
+    <div class="allCards">
+      {% for data in covid%}
+      <div class="card height" style="width: 19rem">
+        {% if data.urlToImage %}
+        <img src="{{data.urlToImage}}" class="card-img-top" alt="..." />
+        {% else %}
+        <img
+          src="/static/noimage.jpeg"
+          class="card-img-top"
+          alt="..."
+          style="width: 200px; height: 200px"
+        />
+        {% endif %}
+        <div class="card-body">
+          <h6 class="card-title news-title">{{data.title}}</h6>
+          <p class="card-text news-des">{{data.description}}</p>
+          <a href="#" class="btn btn-outline-primary" id="click">Read</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
