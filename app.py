@@ -5,7 +5,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
- return render_template('index.html', sports=dt.sports, crypto=dt.crypto, covid=dt.covid)
+ return render_template('index.html', 
+                        sports=dt.sports, crypto=dt.crypto, 
+                        covid=dt.covid, business=dt.business)
 
 
 if __name__ == "__main__":

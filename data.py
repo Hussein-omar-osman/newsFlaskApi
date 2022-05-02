@@ -217,4 +217,57 @@ covid = [
         }
 ]
 
-business = []
+business = [
+    {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Donald Judd, CNN",
+            "title": "Biden will tout 'small business boom' in roundtable with business owners",
+            "description": "The Biden administration will release a report Thursday touting what it's calling a \"small business boom\" under its watch, while hitting Republicans for policies it warns would \"increase taxes on small businesses across the country.\"",
+            "url": "https://www.cnn.com/2022/04/28/politics/small-business-roundtable-white-house-biden/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220427214015-joe-biden-042722-super-tease.jpg",
+            "publishedAt": "2022-04-28T09:04:38Z",
+            "content": "(CNN)The Biden administration will release a report Thursday touting what it's calling a \"small business boom\" under its watch, while hitting Republicans for policies it warns would \"increase taxes o… [+2723 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Mitchell Clark",
+            "title": "Google is using AI to update business hours that are out of date on Google Maps",
+            "description": "Google has written a blog post detailing how it uses AI to predict business hours and update them on Google Maps. Google says it expects to have updated info for 20 million businesses in the next six months.",
+            "url": "https://www.theverge.com/2022/4/7/23014122/google-maps-ai-business-hours-speed-limit-signs",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/zecX0cPldoJGxd8xivCIx07sXlA=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/10745895/acastro_180427_1777_0001.jpg",
+            "publishedAt": "2022-04-07T17:00:00Z",
+            "content": "The predictions are run by humans along the way\r\nIt looks at data like Popular Times, images from street view, and more.\r\nIllustration by Alex Castro / The Verge\r\nGoogle has shared how its using arti… [+2855 chars]"
+        },
+        {
+            "source": {
+                "id": None,
+                "name": "Lifehacker.com"
+            },
+            "author": "Jeff Somers",
+            "title": "Groceries You Should Never Buy at Walmart",
+            "description": "Prior to 1988, Walmart wasn’t in the grocery business, which is wild because Walmart absolutely dominates the modern grocery industry. The chain is easily the top grocer in the country, with sales of about $341 billion in 2020 and a 26% market share. What’s d…",
+            "url": "https://lifehacker.com/groceries-you-should-never-buy-at-walmart-1848806652",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/da7403f4db095e2310985b70650baf5d.jpg",
+            "publishedAt": "2022-04-18T17:00:34Z",
+            "content": "Prior to 1988, Walmart wasnt in the grocery business, which is wild because Walmart absolutely dominates the modern grocery industry. The chain is easily the top grocer in the country, with sales of … [+6278 chars]"
+        },
+        {
+            "source": {
+                "id": None,
+                "name": "New York Times"
+            },
+            "author": "The New York Times",
+            "title": "Business Updates: Starbucks’s New C.E.O. Scraps Stock Buybacks",
+            "description": "On his first day back in the top job, Howard Schultz made an abrupt change in policy at the company as it faces rising worker discontent.",
+            "url": "https://www.nytimes.com/live/2022/04/04/business/economy-news-inflation-russia",
+            "urlToImage": "https://static01.nyt.com/images/2022/04/03/multimedia/03virus-briefing-cardealers-01/03virus-briefing-cardealers-01-facebookJumbo.jpg",
+            "publishedAt": "2022-04-04T11:31:57Z",
+            "content": "A California law requiring diversity on corporate boards of directors has been struck down in a blow to the states efforts to address racial and gender disparities in the workplace.In response to a l… [+3524 chars]"
+        }
+]

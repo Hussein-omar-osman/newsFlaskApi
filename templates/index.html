@@ -181,6 +181,56 @@
           {% endfor %}
         </div>
       </div>
+
+      <div class="headline">
+        <div class="repoH2">
+          <h1>Business</h1>
+          <hr />
+        </div>
+        <div class="headlineCards">
+          {% for data in business%}
+          <div class="card height" style="width: 19rem">
+            {% if data.urlToImage %}
+            <img src="{{data.urlToImage}}" class="card-img-top" alt="..." />
+            {% else %}
+            <img
+              src="/static/noimage.jpeg"
+              class="card-img-top"
+              alt="..."
+              style="width: 200px; height: 200px"
+            />
+            {% endif %}
+            <div class="card-body">
+              <h6 class="card-title news-title">{{data.title}}</h6>
+              <p class="card-text news-des">{{data.description}}</p>
+              <button class="open btn btn-outline-primary">Read More</button>
+            </div>
+            <div class="modal-bg">
+              <div class="modal-cont">
+                {% if data.urlToImage %}
+                <img src="{{data.urlToImage}}" class="modal-img" alt="..." />
+                {% else %}
+                <img
+                  src="/static/noimage.jpeg"
+                  class="modal-img"
+                  alt="..."
+                  style="width: 200px; height: 200px"
+                />
+                {% endif %}
+                <h6 class="modal-title">{{data.title}}</h6>
+                <p>{{data.description + data.content}}</p>
+                <!-- <p>{{data.content}}</p> -->
+                <div class="time-author">
+                  <p>Author: {{data.author}}</p>
+                  <p>Published: {{data.publishedAt}}</p>
+                </div>
+                <span class="modal-close">X</span>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
     </div>
     <!-- <div id="overlay"></div> -->
 
