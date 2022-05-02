@@ -3,7 +3,6 @@ const newsDes = document.querySelectorAll('.news-des');
 const opens = document.querySelectorAll('.open');
 const modals = document.querySelectorAll('.modal-bg');
 const modalClose = document.querySelectorAll('.modal-close');
-// console.log(opens);
 
 for (nt of newsTitle) {
   titleContent = nt.textContent;
@@ -42,41 +41,3 @@ modalClose.forEach((ele, index) => {
     modalClicked.classList.remove('bg-active');
   });
 });
-
-// btn.addEventListener('click', () => {
-//   alert('clicked');
-// });
-
-// openModalButtons.forEach((button) => {
-//   button.addEventListener('click', () => {
-//     console.log('click');
-//     const modal = document.querySelector(button.dataset.modalTarget);
-//     openModal(modal);
-//   });
-// });
-
-// overlay.addEventListener('click', () => {
-//   const modals = document.querySelectorAll('.modal.active');
-//   modals.forEach((modal) => {
-//     closeModal(modal);
-//   });
-// });
-
-// closeModalButtons.forEach((button) => {
-//   button.addEventListener('click', () => {
-//     const modal = button.closest('.modal');
-//     closeModal(modal);
-//   });
-// });
-
-// function openModal(modal) {
-//   if (modal == null) return;
-//   modal.classList.add('active');
-//   overlay.classList.add('active');
-// }
-
-// function closeModal(modal) {
-//   if (modal == null) return;
-//   modal.classList.remove('active');
-//   overlay.classList.remove('active');
-// }
