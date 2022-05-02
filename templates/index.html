@@ -53,11 +53,23 @@
             <div class="card-body">
               <h6 class="card-title news-title">{{data.title}}</h6>
               <p class="card-text news-des">{{data.description}}</p>
-              <button class="open">Open Modal</button>
+              <button class="open btn btn-outline-primary">Read More</button>
             </div>
             <div class="modal-bg">
               <div class="modal-cont">
-                <h6>{{data.title}}</h6>
+                {% if data.urlToImage %}
+                <img src="{{data.urlToImage}}" class="modal-img" alt="..." />
+                {% else %}
+                <img
+                  src="/static/noimage.jpeg"
+                  class="modal-img"
+                  alt="..."
+                  style="width: 200px; height: 200px"
+                />
+                {% endif %}
+                <h6 class="modal-title">{{data.title}}</h6>
+                <p>{{data.description + data.content}}</p>
+                <!-- <p>{{data.content}}</p> -->
                 <span class="modal-close">X</span>
               </div>
             </div>
@@ -87,7 +99,25 @@
             <div class="card-body">
               <h6 class="card-title news-title">{{data.title}}</h6>
               <p class="card-text news-des">{{data.description}}</p>
-              <a href="#" class="btn btn-outline-primary" id="click">Read</a>
+              <button class="open btn btn-outline-primary">Read More</button>
+            </div>
+            <div class="modal-bg">
+              <div class="modal-cont">
+                {% if data.urlToImage %}
+                <img src="{{data.urlToImage}}" class="modal-img" alt="..." />
+                {% else %}
+                <img
+                  src="/static/noimage.jpeg"
+                  class="modal-img"
+                  alt="..."
+                  style="width: 200px; height: 200px"
+                />
+                {% endif %}
+                <h6 class="modal-title">{{data.title}}</h6>
+                <p>{{data.description + data.content}}</p>
+                <!-- <p>{{data.content}}</p> -->
+                <span class="modal-close">X</span>
+              </div>
             </div>
           </div>
           {% endfor %}
@@ -115,7 +145,25 @@
             <div class="card-body">
               <h6 class="card-title news-title">{{data.title}}</h6>
               <p class="card-text news-des">{{data.description}}</p>
-              <a href="#" class="btn btn-outline-primary" id="click">Read</a>
+              <button class="open btn btn-outline-primary">Read More</button>
+            </div>
+            <div class="modal-bg">
+              <div class="modal-cont">
+                {% if data.urlToImage %}
+                <img src="{{data.urlToImage}}" class="modal-img" alt="..." />
+                {% else %}
+                <img
+                  src="/static/noimage.jpeg"
+                  class="modal-img"
+                  alt="..."
+                  style="width: 200px; height: 200px"
+                />
+                {% endif %}
+                <h6 class="modal-title">{{data.title}}</h6>
+                <p>{{data.description + data.content}}</p>
+                <!-- <p>{{data.content}}</p> -->
+                <span class="modal-close">X</span>
+              </div>
             </div>
           </div>
           {% endfor %}
