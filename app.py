@@ -2,7 +2,7 @@ from flask import Flask, render_template, url_for, request, redirect
 import requests
 import data as dt
 app = Flask(__name__)
-
+app.config['SECRET_KEY'] = '3d69c446439b16d483d48356c6c09ffa'
 
 @app.route("/")
 @app.route("/home")
