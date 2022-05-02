@@ -99,7 +99,7 @@ hr:not([size]) {
 .modal-cont {
   position: relative;
   background-color: #fff;
-  width: 60%;
+  width: 65%;
   border-radius: 20px;
   padding: 20px;
 }
