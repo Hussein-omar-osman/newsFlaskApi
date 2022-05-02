@@ -216,3 +216,5 @@ covid = [
             "content": "Stephanie Nolen contributed reporting.\r\nThe Daily is made by Lisa Tobin, Rachel Quester, Lynsea Garrison, Clare Toeniskoetter, Paige Cowett, Michael Simon Johnson, Brad Fisher, Larissa Anderson, Chri… [+750 chars]"
         }
 ]
+
+business = []

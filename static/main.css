@@ -117,6 +117,13 @@ hr:not([size]) {
   margin: 5px 80px;
 }
 
+.time-author {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #7c7676;
+  font-size: 14px;
+}
 /* .modal {
   position: fixed;
   top: 50%;
