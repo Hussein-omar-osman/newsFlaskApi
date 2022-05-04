@@ -18,5 +18,9 @@ def searchResult():
  res = requests.get(f'https://newsapi.org/v2/everything?q={name}&apiKey={api_key}').json()
  return render_template('/searchResult.html', name=name, datas=res)
  
+ 
+@app.route("/go")
+def go ():
+ return "Go"
 if __name__ == "__main__":
  app.run(debug=True)

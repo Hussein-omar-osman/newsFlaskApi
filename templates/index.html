@@ -21,7 +21,7 @@
   <body>
     <h1 class="pg-title">News Api</h1>
     <div class="form">
-      <form action="/searchResult" method="post">
+      <form action="/go" method="post">
         <input type="text" placeholder="Search..." name="search" required />
         <button class="btn btn-primary">Search</button>
       </form>
@@ -70,7 +70,7 @@
                 />
                 {% endif %}
                 <h6 class="modal-title">{{data.title}}</h6>
-                <p>{{data.description + data.content}}</p>
+                <p>{{data.description + data.content | striptags}}</p>
                 <!-- <p>{{data.content}}</p> -->
                 <div class="time-author">
                   <p>Author: {{data.author}}</p>
