@@ -19,8 +19,3 @@ def searchResult():
  return render_template('/searchResult.html', name=name, datas=res)
  
  
-@app.route("/go")
-def go ():
- return "Go"
-if __name__ == "__main__":
- app.run(debug=True)
